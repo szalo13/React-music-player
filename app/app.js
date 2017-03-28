@@ -22,6 +22,6 @@ class App extends React.Component {
 }
 
 // Render to ID content in the DOM
-ReactDOM.render( < Search / > ,
+ReactDOM.render( < App / > ,
     document.getElementById('content')
 );
