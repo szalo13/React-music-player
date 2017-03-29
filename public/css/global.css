@@ -5,6 +5,7 @@
 
 /* Body resets and fancy font*/
 body{
+  background-color: #666;
   margin: 0;
   font-family: 'Exo 2', sans-serif;
 }
