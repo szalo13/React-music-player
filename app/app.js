@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 
 import Search from './components/search.component';
 import Details from './components/details.component';
+import Player from './components/player.component';
 
 // Search component created as a class
 class App extends React.Component {
@@ -16,6 +17,7 @@ class App extends React.Component {
             <div>
                 <Search />
                 <Details title={'Track title'} />
+                <Player />
             </div>
         );
     }
